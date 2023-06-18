@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+/* Utill class */
+
+.text-center{
+    text-align:  center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+
+
+/* calculator */
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    flex-direction: column;
+}
+h2{
+    color: #6d2709;
+    font-style: italic;
+}
+
+.container{ 
+    margin-top: 30px;
+    gap: 5px;
+    box-shadow: 0 0 50px #de7630 ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.row{
+    gap: 5px;
+}
+
+.row input{
+    padding: 7px;
+    height: 35px;
+    width: 200px;
+    color: #fff;
+    background-color:#000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: rgb(229, 105, 10);
+    border: #000 1px solid;
+    cursor: pointer; 
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#zero{
+    width: 105px;
+    
+}
